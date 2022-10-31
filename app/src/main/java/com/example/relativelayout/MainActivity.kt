@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         actionBar.syncState()
 
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
-        navView=findViewById(R.id.navView)
+         navView=findViewById(R.id.navView)
          navView.setNavigationItemSelectedListener {
              when(it.itemId){
                  R.id.nav_account->Toast.makeText(applicationContext,"clicked on Account",Toast.LENGTH_SHORT).show()
