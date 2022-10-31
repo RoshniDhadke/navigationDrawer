@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+    <string name="firstname">FirstName</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+</resources>
